@@ -1,0 +1,74 @@
+
+.App {
+    /* text-align: center; */
+    display:flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(100.5deg, rgb(148, 146, 236) 17.7%, rgb(245, 194, 194) 76.1%);
+  }
+  .design-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px 5px;
+    align-items: center;
+    position:relative;
+    top:-50px;
+  }
+  .login-form,.register-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px 5px;
+    border:#c366da solid 2px;
+    background-color: white;
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-left: 50px; 
+    padding-bottom: 20px;
+     
+  } 
+  .labels {  
+    align-items: left;
+    color: darkblue;
+    font-weight: bold;
+    display: block;
+    }
+   button {
+      border: none;
+      align-items: center;
+      width: 50%;
+    padding: 2px;
+    background-color: lavender;
+    position: relative;
+    left:40px;
+  }
+  .b2{
+  border: none;
+      align-items: center;
+      width: 30%;
+    padding: 2px;
+    background-color: lavender;
+    position: relative;
+    left:50px;
+  }
+  button:hover {
+    background-color: #4CAF50; /* Green */
+     
+    color: lavender;
+  }
+  
+  .space {
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+  }
+  h1{
+    color: darkblue;
+    text-align: center;
+    position:relative;
+      top:-100px;
+  }
+  Link {
+    color: #C38D9E;
+  }
